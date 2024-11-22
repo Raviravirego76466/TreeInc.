@@ -551,7 +551,7 @@ addLayer("b", {
 
 addLayer("g", {
         name: "generators", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "G", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "G<sub>P<sub>☆</sub>ω</sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         color: "#a3d9a5",
         requires() { return new Decimal(200).times((player.g.unlockOrder&&!player.g.unlocked)?5000:1) }, // Can be a function that takes requirement increases into account
@@ -896,7 +896,7 @@ addLayer("g", {
 
 addLayer("t", {
         name: "time", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "T", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -1301,7 +1301,7 @@ addLayer("t", {
 
 addLayer("e", {
         name: "enhance", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "E", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -1573,7 +1573,7 @@ addLayer("e", {
 
 addLayer("s", {
         name: "space", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "S", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -2450,7 +2450,7 @@ addLayer("s", {
 
 addLayer("sb", {
         name: "super boosters", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "SB", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         color: "#504899",
         requires: new Decimal(100), // Can be a function that takes requirement increases into account
@@ -2525,7 +2525,7 @@ addLayer("sb", {
 
 addLayer("sg", {
         name: "super generators", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "SG", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 4, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         color: "#248239",
         requires: new Decimal(200), // Can be a function that takes requirement increases into account
@@ -2613,7 +2613,7 @@ addLayer("sg", {
 
 addLayer("h", {
         name: "hindrance", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "H", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -2916,7 +2916,7 @@ addLayer("h", {
 
 addLayer("q", {
         name: "quirks", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "Q", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "Q+H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -3524,7 +3524,7 @@ addLayer("q", {
 
 addLayer("o", {
 	name: "solarity", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "O", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "O<sub>Q+H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub></sub>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -3897,7 +3897,7 @@ addLayer("o", {
 
 addLayer("ss", {
         name: "subspace", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "SS", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "SS<sup>O<sub>Q+H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub></sub></sup>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -4122,7 +4122,7 @@ addLayer("ss", {
 
 addLayer("m", {
 		name: "magic", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "M", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "M+SS<sup>O<sub>Q+H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub></sub></sup>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -4506,7 +4506,7 @@ addLayer("m", {
 
 addLayer("ba", {
 		name: "balance", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "BA", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "BA<sup>M+SS<sup>O<sub>Q+H<sub>SG<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub>SB<sub>S+E+T<sub>G<sub>P<sub>☆</sub>ω</sub>ɷ</sub></sub></sub></sub></sup></sup>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -4821,7 +4821,7 @@ addLayer("ba", {
 
 addLayer("ps", {
 		name: "phantom souls", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "PS", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "PS+₿", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -5141,7 +5141,7 @@ addLayer("ps", {
 
 addLayer("hn", {
 		name: "honour", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "HN", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "HN+PS+₿", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -5752,7 +5752,7 @@ addLayer("hn", {
 
 addLayer("n", {
 		name: "nebula", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "N", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "N+HN+PS+₿+HN+PS+₿", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -5981,7 +5981,7 @@ addLayer("n", {
 
 addLayer("hs", {
 		name: "hyperspace", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "HS", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "HS+N+HN+PS+₿+HN+PS+₿+N+HN+PS+₿+HN+PS+₿", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -6423,7 +6423,7 @@ addLayer("hs", {
 
 addLayer("i", {
 		name: "imperium", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "I", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "I+<sup>HS+N+HN+PS+₿+HN+PS+₿+N+HN+PS+₿+HN+PS+₿</sup>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 4, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -6680,7 +6680,7 @@ addLayer("i", {
 
 addLayer("ma", {
 		name: "mastery", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "MA", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "MA+<sup>I+<sup>HS+N+HN+PS+₿+HN+PS+₿+N+HN+PS+₿+HN+PS+₿</sup></sup>", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 2, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -6915,7 +6915,7 @@ addLayer("ma", {
 
 addLayer("ge", {
 		name: "gears", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "GE", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "GE+⚙", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 1, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -7248,7 +7248,7 @@ addLayer("ge", {
 
 addLayer("mc", {
 		name: "machines", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "MC", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "MC+⚙xGE+⚙", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 3, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -7549,7 +7549,7 @@ addLayer("mc", {
 
 addLayer("en", {
 		name: "energy", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "EN", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "EN+♺", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -7757,7 +7757,7 @@ addLayer("en", {
 
 addLayer("ne", {
 		name: "neurons", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "NE", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "NE+EN+♺+EN+♺", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 4, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -7984,7 +7984,7 @@ addLayer("ne", {
 
 addLayer("id", {
 		name: "ideas", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "ID", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "ID+NE+EN+♺+EN+♺+NE+EN+♺+EN+♺", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 5, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -8087,7 +8087,7 @@ addLayer("id", {
 
 addLayer("r", {
 		name: "robots", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "R", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "Rx🤖", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -8448,7 +8448,7 @@ addLayer("r", {
 
 addLayer("ai", {
 		name: "AI", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "AI", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "AI+Rx🤖+Rx🤖", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -8937,7 +8937,7 @@ addLayer("ai", {
 
 addLayer("c", {
 		name: "civilizations", // This is optional, only used in a few places, If absent it just uses the layer id.
-        symbol: "C", // This appears on the layer's node. Default is the id with the first letter capitalized
+        symbol: "C+AI+Rx🤖+Rx🤖+AI+Rx🤖+Rx🤖", // This appears on the layer's node. Default is the id with the first letter capitalized
         position: 4, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
         startData() { return {
             unlocked: false,
@@ -9657,7 +9657,7 @@ addLayer("a", {
 addLayer("sc", {
 	startData() { return {unlocked: true}},
 	color: "#e6ff69",
-	symbol: "SC",
+	symbol: "SC+C+AI+Rx🤖+Rx🤖+AI+Rx🤖+Rx🤖+C+AI+Rx🤖+Rx🤖+AI+Rx🤖+Rx🤖",
 	row: "side",
 	layerShown() { return hasAchievement("a", 21) && player.scShown },
 	tooltip: "Softcaps",
